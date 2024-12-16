@@ -1,0 +1,6 @@
+f=open('задание2','a')
+print('Введите текст для добавления в файл')
+f.write(input())
+f.close()
+f=open('задание2').read()
+print(f)
