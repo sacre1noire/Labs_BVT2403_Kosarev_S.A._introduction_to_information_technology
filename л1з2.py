@@ -1,0 +1,5 @@
+print('Введите 2 числа')
+m=input().split()
+m=list(map(int,m))
+if m[0] != m[1]:print(max(m))
+else: print('Числа равны')
